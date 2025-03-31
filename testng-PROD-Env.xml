@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="prod"></include>
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true" name="C:/Users/sumit.sharma/IdeaProjects/APIAutomationFrameworkATB8x">
+
+        <classes>
+            <class name="sumit.sharma.com.tests.integration.sample.TestIntegrationScenario">
+            </class>
+        </classes>
+    </test>
+</suite>
